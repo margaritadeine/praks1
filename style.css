@@ -1,0 +1,61 @@
+* { 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+.clearfix:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+	color: 	#008080;
+}
+
+h1{
+	font-size: 40px;
+	margin-bottom: 20px;
+
+}
+
+h2 {
+	font-size: 25px;
+	margin-bottom: 10px;
+
+}
+
+.main-text{
+	text-align: justify;
+	margin-bottom: 20px;
+}
+/* kommentaar*/
+
+.container {
+	width: 1140px;
+	/*  top right bottom left*/
+	margin: 40px auto 0 auto;
+}
+
+.blog-posts,
+.other-posts{float: left;}
+
+.blog-posts{
+	width: 75%;
+	padding-right: 40px;
+}
+.other-posts{
+	width: 25%;
+
+}
+
+#body-img {
+	height: 400px;
+	width: auto;
+}
